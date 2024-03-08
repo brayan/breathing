@@ -1,4 +1,4 @@
-package br.com.sailtech.breathing.article.domain.model
+package br.com.sailtech.breathing.feature.articles.domain.model
 
 data class Article(
     val title: String,
