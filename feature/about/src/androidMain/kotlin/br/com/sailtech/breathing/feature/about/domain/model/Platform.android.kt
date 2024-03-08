@@ -1,3 +1,5 @@
+package br.com.sailtech.breathing.feature.about.domain.model
+
 import android.content.res.Resources
 import android.os.Build
 import android.util.Log

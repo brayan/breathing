@@ -32,6 +32,7 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.compose.ui.tooling.preview)
             implementation(libs.androidx.activity.compose)
+            implementation(libs.androidx.lifecycle.viewmodel.ktx)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -40,6 +41,9 @@ kotlin {
             implementation(compose.ui)
             @OptIn(ExperimentalComposeLibrary::class)
             implementation(compose.components.resources)
+            implementation(libs.kotlinx.coroutines.core)
+            implementation(project(":feature:about"))
+            implementation(project(":feature:articles"))
         }
     }
 }

@@ -19,3 +19,6 @@ dependencyResolutionManagement {
 }
 
 include(":composeApp")
+include(":feature:about")
+include(":feature:articles")
+include(":util:presentation")

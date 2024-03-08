@@ -1,3 +1,5 @@
+package br.com.sailtech.breathing.feature.about.domain.model
+
 import platform.Foundation.NSLog
 import platform.UIKit.UIDevice
 import platform.UIKit.UIScreen

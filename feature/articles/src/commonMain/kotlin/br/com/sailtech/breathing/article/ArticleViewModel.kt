@@ -1,6 +1,6 @@
 package br.com.sailtech.breathing.article
 
-import br.com.sailtech.breathing.presentation.BaseViewModel
+import br.com.sailtech.breathing.util.presentation.BaseViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

@@ -1,3 +1,5 @@
+package br.com.sailtech.breathing.feature.about.domain.model
+
 interface Platform {
     val osName: String
     val osVersion: String

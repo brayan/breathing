@@ -1,4 +1,4 @@
-package presentation
+package br.com.sailtech.breathing.feature.about.presentation
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import br.com.sailtech.breathing.feature.about.domain.model.getPlatform
 
 @Composable
 fun AboutScreen() {
