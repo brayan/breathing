@@ -47,7 +47,7 @@ kotlin {
 }
 
 android {
-    namespace = "br.com.sailtech.breathing.feature.articles"
+    namespace = "br.com.sailtech.breathing.util.presentation"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
