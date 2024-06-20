@@ -2,8 +2,14 @@ package br.com.sailtech.breathing.feature.articles.presentation.viewmodel
 
 import br.com.sailtech.breathing.feature.articles.domain.model.Article
 
-data class ArticleViewState(
-    val articles: List<Article> = listOf(),
-    val loading: Boolean = false,
-    val error: String? = null,
-)
+sealed class ArticleViewState {
+    data object Loading : ArticleViewState()
+
+    data class Success(
+        val articles: List<Article> = listOf(),
+    ) : ArticleViewState()
+
+    data class Error(
+        val message: String,
+    ) : ArticleViewState()
+}

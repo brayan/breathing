@@ -33,6 +33,7 @@ kotlin {
             implementation(libs.compose.ui.tooling.preview)
             implementation(libs.androidx.activity.compose)
             implementation(libs.androidx.lifecycle.viewmodel.ktx)
+            implementation("io.coil-kt:coil-compose:2.5.0")
         }
         commonMain.dependencies {
             implementation(compose.runtime)
