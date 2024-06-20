@@ -52,7 +52,7 @@ kotlin {
 }
 
 android {
-    namespace = "br.com.sailtech.breathing"
+    namespace = "br.com.sailtech.kmpnews"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
@@ -60,7 +60,7 @@ android {
     sourceSets["main"].resources.srcDirs("src/commonMain/resources")
 
     defaultConfig {
-        applicationId = "br.com.sailtech.breathing"
+        applicationId = "br.com.sailtech.kmpnews"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1

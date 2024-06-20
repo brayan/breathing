@@ -1,4 +1,4 @@
-rootProject.name = "breathing"
+rootProject.name = "kmp-news"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
